@@ -32,7 +32,7 @@ function InfoCards() {
   ]
 
   return (
-    <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-6 mt-12  '>
+    <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-6 mt-12 lg:-mt-12  '>
       {
         cardsData.map(card=><InfoCard
         key={card.id}

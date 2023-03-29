@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomeBanner() {
     return (
-        <div className="hero lg:min-h-screen " style={{ backgroundImage: `url("https://i.ibb.co/4MQMxC6/bg.png")` }}>
+        <div className="hero lg:min-h-screen text-center lg:text-left " style={{ backgroundImage: `url("https://i.ibb.co/4MQMxC6/bg.png")` }}>
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src="https://i.ibb.co/PtPm82P/chair.png" className="w-fit lg:w-1/2 rounded-lg shadow-2xl" />
                 <div>
